@@ -1,0 +1,19 @@
+{
+  "name": "mugi",
+  "version": "1.0.0",
+  "description": "MUGI version of css",
+  "main": "src/main.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzmaKa/MUGI.git"
+  },
+  "keywords": ["css", "framework", "lightweight", "responsive", "great" , "Modern", "updated", "interface"],
+  "author": "MUGI Founders",
+  "license": "MIT"
+}

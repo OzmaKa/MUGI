@@ -1,0 +1,223 @@
+/* ============================
+   🔹 Base Button Styles
+============================= */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: var(--border-radius, 4px);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover and Active Effect */
+  .btn:hover {
+    filter: brightness(90%);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* ============================
+     🔹 Solid Buttons
+  ============================= */
+  .btn-primary {
+    background-color: var(--primary-color, #007bff);
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color, #6c757d);
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: var(--success-color, #28a745);
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: var(--danger-color, #dc3545);
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: var(--warning-color, #ffc107);
+    color: black;
+  }
+  
+  .btn-info {
+    background-color: var(--info-color, #17a2b8);
+    color: white;
+  }
+  
+  /* ============================
+     🔹 Outline Buttons
+  ============================= */
+  .btn-outline {
+    background: none;
+    border: 2px solid currentColor;
+  }
+  
+  .btn-outline-primary {
+    color: var(--primary-color, #007bff);
+    border-color: var(--primary-color, #007bff);
+  }
+  
+  .btn-outline-secondary {
+    color: var(--secondary-color, #6c757d);
+    border-color: var(--secondary-color, #6c757d);
+  }
+  
+  .btn-outline-success {
+    color: var(--success-color, #28a745);
+    border-color: var(--success-color, #28a745);
+  }
+  
+  .btn-outline-danger {
+    color: var(--danger-color, #dc3545);
+    border-color: var(--danger-color, #dc3545);
+  }
+  
+  .btn-outline-warning {
+    color: var(--warning-color, #ffc107);
+    border-color: var(--warning-color, #ffc107);
+  }
+  
+  .btn-outline-info {
+    color: var(--info-color, #17a2b8);
+    border-color: var(--info-color, #17a2b8);
+  }
+  
+  /* Hover effect for outline buttons */
+  .btn-outline:hover {
+    background-color: currentColor;
+    color: white;
+  }
+  
+  /* ============================
+     🔹 Disabled Button
+  ============================= */
+  .btn-disabled,
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  /* ============================
+     🔹 Button Sizes
+  ============================= */
+  .btn-sm {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
+  .btn-lg {
+    padding: 14px 28px;
+    font-size: 18px;
+  }
+  
+  /* ============================
+     🔹 Block Button (Full Width)
+  ============================= */
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  /* ============================
+     🔹 Icon Buttons
+  ============================= */
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .btn-icon i {
+    font-size: 18px;
+  }
+  
+  /* ============================
+     🔹 Floating Button (FAB)
+  ============================= */
+  .btn-fab {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ============================
+     🔹 Social Media Buttons
+  ============================= */
+  .btn-facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .btn-twitter {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .btn-instagram {
+    background-color: #e1306c;
+    color: white;
+  }
+  
+  .btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  /* ============================
+     🔹 Custom Hover Effects
+  ============================= */
+  /* 3D effect */
+  .btn-3d {
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-3d:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+  /* Glow Effect */
+  .btn-glow {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+  
+  .btn-glow:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+  }
+  
+  /* ============================
+     🔹 Animated Button (Pulse)
+  ============================= */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .btn-pulse:hover {
+    animation: pulse 0.5s infinite;
+  }
+  

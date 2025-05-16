@@ -1,0 +1,58 @@
+/* ============================
+   👀 Visibility Classes
+============================= */
+
+/* Hide Element (But Still Exists in DOM) */
+.hidden {
+    visibility: hidden !important;
+  }
+  
+  /* Completely Remove Element (Does Not Exist in DOM) */
+  .invisible {
+    display: none !important;
+  }
+  
+  /* Make Element Visible */
+  .visible {
+    visibility: visible !important;
+  }
+  
+  /* ============================
+     🖥 Display Utilities
+  ============================= */
+  .d-block { display: block !important; }
+  .d-inline { display: inline !important; }
+  .d-inline-block { display: inline-block !important; }
+  .d-flex { display: flex !important; }
+  .d-grid { display: grid !important; }
+  .d-none { display: none !important; }
+  
+  /* ============================
+     🎚 Opacity Levels
+  ============================= */
+  .opacity-100 { opacity: 1 !important; }
+  .opacity-75 { opacity: 0.75 !important; }
+  .opacity-50 { opacity: 0.5 !important; }
+  .opacity-25 { opacity: 0.25 !important; }
+  .opacity-10 { opacity: 0.1 !important; }
+  .opacity-0 { opacity: 0 !important; }
+  
+  /* ============================
+     📏 Responsive Visibility
+  ============================= */
+  
+  /* Hide on Mobile */
+  @media (max-width: 768px) {
+    .hidden-sm { display: none !important; }
+  }
+  
+  /* Hide on Tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .hidden-md { display: none !important; }
+  }
+  
+  /* Hide on Large Screens */
+  @media (min-width: 1025px) {
+    .hidden-lg { display: none !important; }
+  }
+  

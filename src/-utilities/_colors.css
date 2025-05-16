@@ -1,0 +1,109 @@
+/* ============================
+   🎨 Color Variables
+============================= */
+:root {
+  /* Primary Colors */
+  --primary-color: #007bff;
+  --primary-light: #66b3ff;
+  --primary-dark: #0056b3;
+
+  /* Secondary Colors */
+  --secondary-color: #6c757d;
+  --secondary-light: #a2a9af;
+  --secondary-dark: #495057;
+
+  /* Success Colors */
+  --success-color: #28a745;
+  --success-light: #71d88b;
+  --success-dark: #1c6a2b;
+
+  /* Danger Colors */
+  --danger-color: #dc3545;
+  --danger-light: #f28b96;
+  --danger-dark: #a71d2a;
+
+  /* Warning Colors */
+  --warning-color: #ffc107;
+  --warning-light: #ffdb69;
+  --warning-dark: #b38600;
+
+  /* Info Colors */
+  --info-color: #17a2b8;
+  --info-light: #5fd3e4;
+  --info-dark: #0b697c;
+
+  /* Light & Dark */
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+/* ============================
+   🎨 Background Colors
+============================= */
+.bg-primary { background-color: var(--primary-color) !important; }
+.bg-secondary { background-color: var(--secondary-color) !important; }
+.bg-success { background-color: var(--success-color) !important; }
+.bg-danger { background-color: var(--danger-color) !important; }
+.bg-warning { background-color: var(--warning-color) !important; }
+.bg-info { background-color: var(--info-color) !important; }
+.bg-light { background-color: var(--light-color) !important; }
+.bg-dark { background-color: var(--dark-color) !important; color: white !important; }
+
+/* ============================
+   🎨 Text Colors
+============================= */
+.text-primary { color: var(--primary-color) !important; }
+.text-secondary { color: var(--secondary-color) !important; }
+.text-success { color: var(--success-color) !important; }
+.text-danger { color: var(--danger-color) !important; }
+.text-warning { color: var(--warning-color) !important; }
+.text-info { color: var(--info-color) !important; }
+.text-light { color: var(--light-color) !important; }
+.text-dark { color: var(--dark-color) !important; }
+
+/* ============================
+   🎨 Border Colors
+============================= */
+.border-primary { border: 1px solid var(--primary-color) !important; }
+.border-secondary { border: 1px solid var(--secondary-color) !important; }
+.border-success { border: 1px solid var(--success-color) !important; }
+.border-danger { border: 1px solid var(--danger-color) !important; }
+.border-warning { border: 1px solid var(--warning-color) !important; }
+.border-info { border: 1px solid var(--info-color) !important; }
+.border-light { border: 1px solid var(--light-color) !important; }
+.border-dark { border: 1px solid var(--dark-color) !important; }
+
+/* ============================
+   🎨 Hover Effects
+============================= */
+.bg-primary:hover { background-color: var(--primary-dark) !important; }
+.bg-secondary:hover { background-color: var(--secondary-dark) !important; }
+.bg-success:hover { background-color: var(--success-dark) !important; }
+.bg-danger:hover { background-color: var(--danger-dark) !important; }
+.bg-warning:hover { background-color: var(--warning-dark) !important; }
+.bg-info:hover { background-color: var(--info-dark) !important; }
+
+/* ============================
+   🌗 Dark Mode Support
+============================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #66b3ff;
+    --secondary-color: #a2a9af;
+    --success-color: #71d88b;
+    --danger-color: #f28b96;
+    --warning-color: #ffdb69;
+    --info-color: #5fd3e4;
+    --light-color: #343a40;
+    --dark-color: #f8f9fa;
+  }
+}
+
+
+
+.bg-gradient-primary {
+  background: linear-gradient(45deg, var(--primary-light), var(--primary-dark));
+}
+.bg-gradient-success {
+  background: linear-gradient(45deg, var(--success-light), var(--success-dark));
+}

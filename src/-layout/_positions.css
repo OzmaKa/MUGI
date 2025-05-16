@@ -1,0 +1,16 @@
+/* positions */
+.pos-static { position: static; }
+.pos-relative { position: relative; }
+.pos-absolute { position: absolute; }
+.pos-fixed { position: fixed; }
+.pos-sticky { position: sticky; }
+
+/* Top / Right / Bottom / Left */
+.top-0 { top: 0; }
+.right-0 { right: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+.top-50 { top: 50%; }
+.right-50 { right: 50%; }
+.bottom-50 { bottom: 50%; }
+.left-50 { left: 50%; }
