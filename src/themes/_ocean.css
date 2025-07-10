@@ -1,0 +1,9 @@
+[data-theme="ocean"] {
+  --mugi-bg: #e0f7fa;
+  --mugi-text: #01579b;
+  --mugi-primary: #0288d1;
+  --mugi-secondary: #4dd0e1;
+  --mugi-border-radius: 0.5rem;
+  --mugi-border: #b2ebf2;
+  --mugi-hover: #b2ebf2;
+}

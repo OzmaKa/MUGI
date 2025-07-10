@@ -1,0 +1,7 @@
+[data-theme="light"] {
+    --mugi-bg: #ffffff;
+    --mugi-text: #111111;
+    --mugi-primary: #0d6efd;
+    --mugi-secondary: #6c757d;
+    --mugi-border-radius: 0.5rem;
+}

@@ -1,0 +1,17 @@
+/* Global styles */
+body {
+    background-color: var(--mugi-bg, white);
+    color: var(--mugi-text, black);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}

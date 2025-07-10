@@ -1,0 +1,9 @@
+[data-theme="dark"] {
+  --mugi-bg: #121212;
+  --mugi-text: #f1f1f1;
+  --mugi-primary: #bb86fc;
+  --mugi-secondary: #03dac6;
+  --mugi-border-radius: 0.5rem;
+  --mugi-border: #333333;
+  --mugi-hover: #1e1e1e;
+}

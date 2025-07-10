@@ -1,0 +1,109 @@
+/* 1. Classic Input */
+.input-classic {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-classic:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* 2. Modern Minimal Input */
+.input-minimal {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  background: transparent;
+  transition: border-color 0.3s;
+}
+
+.input-minimal:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* 3. Rounded Input */
+.input-rounded {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.input-rounded:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+}
+
+/* 4. Floating Label Input */
+.float-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.input-float {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-float:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.float-label {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  color: #999;
+  font-size: 16px;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.input-float:focus + .float-label,
+.input-float:not(:placeholder-shown) + .float-label {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  background: white;
+  padding: 0 5px;
+  color: #4a90e2;
+}
+/* 7. Gradient Border Input */
+.input-gradient {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.gradient-container {
+  position: relative;
+  padding: 2px;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #4a90e2, #8e44ad);
+}
+
+.input-gradient:focus {
+  outline: none;
+}
